@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    width: 40%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+.rightFst{
+    width: 90%;
+    height: 60%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: rgb(219, 219, 219) solid 1px;
+    background-color: white;
+}
+.insta{
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.textBox{
+    width: 80%;
+    height: 34px;
+    margin-bottom: 7px;
+}
+.login{
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.Or{
+    width: 80%;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.line{
+    width: 42%;
+    height: 1px;
+    border: rgba(219, 219, 219, .7) solid 1px;
+}
+.or{
+    width: 13%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: rgb(139, 139, 139);
+    font-weight: bolder;
+}
+.fb{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+}
+.FBlogin{
+    width: 80%;
+    height: 34px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forget{
+    width: 80%;
+    height: 34px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 100%; /* 隨 div textBox 大小 */
+    height: 100%;
+    outline: none;
+    font-size: 12px;
+    padding-left: 5px;
+    background: #fafafa;
+    border: rgb(219, 219, 219) solid 1px;
+    border-radius: 3px;
+}
+::placeholder{
+    color: rgb(155, 155, 155);
+}
+button{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: bolder;
+    background-color: #0095f6;
+    border: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.rightSec{
+    width: 90%;
+    height: 10%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:rgb(219, 219, 219) solid 1px;
+    background-color: white;  
+}
+.rightTrd{
+    width: 90%;
+    height: 7%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightLast{
+    width: 90%;
+    height: 8%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    padding-left: 25px;
+}
+.google{
+    padding-right: 10px;
+}
+
+.bottom{
+    margin: auto;
+    width: 50%;
+    height: 15%;
+}
+.url{
+    padding: 10px 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.url ul li{
+    display: inline;
+    padding: 6.5px;
+}
+.ultwo{
+    padding-top: 2px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: gray;
+}
+.info select{
+    color: gray;
+    background: #fafafa;
+    border: transparent;
+    outline: none;
+}
+.copyright{
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+.forget a{
+    color: #00376b;
+}
+.FBlogin a{
+    color: #385185;
+    font-weight: bolder;
+}
+.rightSec a{
+    color: #0095f6;
+    font-weight: bolder;
+}
+.url a{
+    color: gray;
+}

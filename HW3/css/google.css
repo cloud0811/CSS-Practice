@@ -1,0 +1,209 @@
+body, input, button{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #202124;
+}
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+a.headLeft:first-of-type{
+    margin-left: 15px;
+}
+a.headLeft{
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #202124;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.headR{
+    display: flex;
+    flex-grow: 1; /* 將剩餘空間分成1份*/
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+    margin-right: 5px;
+}
+a.headRight{
+    display: inline-block;
+    padding: 0 0 0 15px;
+    color: #202124;
+}
+a.headRight:last-child{
+    margin-right: 15px;
+}
+.blueButton{
+    cursor: pointer;
+    color: #fff;
+    background: #1a73e8;
+    text-decoration: none;
+    margin-left: 20px;    
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    margin-right: 8px;
+    padding: 9px 30px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    display: inline-block;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.googleLogo{
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+    display: block;
+}
+.img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+}
+.search{
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.textBox{
+    display: flex;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: none;
+    margin: auto;
+    width: 500px;
+    width: auto;
+    min-width: 500px;
+    padding-left: -5px;
+    position: relative;
+}
+.textBox:hover{
+    box-shadow: 0px 0px 5px /* x值 y值 模糊程度 */ rgb(139, 138, 138); 
+}
+.inputTxt{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    word-wrap: break-word;
+    outline: none;
+    margin-top: 4.5px;
+    height: 34px;
+    width: 490px;
+    font-size: 20px;
+}
+.searchIco{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 13px;
+    margin-top: -1px;
+}
+.mic{
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+    padding-right: 10px;
+    margin-top: 6px;
+}
+.btnLoca{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+}
+
+.place{
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+
+.bottom{
+    display: block;
+    background-color: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.taiwan{
+    display: block;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+.info{
+    padding: 15px 22.5px;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 3px;
+    color: #70757a;
+    font-size: 14px;
+}

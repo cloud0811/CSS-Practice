@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(214, 214, 214);
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.contents{
+    margin: auto;
+    width: 50%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    width: 40%;
+    padding-top: 10%;
+}
+img{
+    width: 100%;
+}
+.form{
+    position: absolute;
+    z-index: 1;
+    width: 28%;
+    top: 5%;
+    left: 44%;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-weight: 1000;
+    font-size: 17px;
+}
+select{
+    margin: 20px 0;
+    width: 40%;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 800;
+    background: rgb(214, 214, 214);    
+    border: none;
+    box-shadow: inset 1px 1px 5px rgb(146, 146, 146);
+}
+textarea{
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: transparent;
+    font-size: 15px;
+    padding-left: 5px;
+    resize: none;
+    border: none;
+    box-shadow: inset 1px 1px 5px rgb(146, 146, 146);
+}
+.smallTxtArea{
+    width: 30%;
+    height: 45px;
+    line-height: 45px; /* 與height一樣，使文字垂直置中 */
+    overflow-y: hidden;
+    margin-right: 1%;
+}
+.midTxtArea{
+    width: 69%;
+    height: 45px;
+    line-height: 45px; /* 與height一樣，使文字垂直置中 */
+    overflow-y: hidden;
+}
+.bigTxtArea{
+    padding-top: 5px;
+    resize: both;
+}
+::placeholder{
+    color: black;
+    font-weight: 800;
+}
+.phoneItem{
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+button{
+    width: 17%;
+    height: 40px;
+    margin-left: 10px;
+    color: white;
+    background: rgb(11, 41, 212);
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: 800;
+}

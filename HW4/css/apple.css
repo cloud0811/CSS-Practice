@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Microsoft JhengHei';
+    font-size: 1px;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.black{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    padding: 0 280px;
+}
+.black ul{
+    margin-left: 24px;
+}
+.black ul li{
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 40px;
+    padding-bottom: 4px;
+}
+.black a{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: gray;    
+}
+.img{
+    padding-top: 2px;
+}
+.red{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.red a{
+    color: white;
+}
+.red a:hover{
+    text-decoration: underline;
+}
+.bottom{
+    margin-top: 0;
+    width: 100%;
+    height: 580px;
+    background-color: #f5f5f7;
+}
+.bottom ul li{
+    list-style: none;
+    line-height: 25px;
+}
+.info{
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+}
+.first{
+    margin-bottom: 20px;
+    color: gray;
+}
+hr{
+    background-color: rgb(221, 221, 221);
+}
+.link{
+    padding-top: 20px;
+    width: 20%;
+}
+.sec{
+    display: flex;
+    margin-bottom: 30px;
+}
+.store a{
+    color: dodgerblue;
+}
+.store{
+    margin-bottom: 10px;
+    color: gray;
+}
+.copyright{
+    padding-bottom: 15px;
+    height: 55px;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+.copyright a{
+    color:  black;
+}
+.one{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    border-right: rgb(153, 153, 153) solid 1px;
+    margin-left: 15px;
+}
+.other{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    border-right: gray solid 1px;
+}
+.taiwan{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
